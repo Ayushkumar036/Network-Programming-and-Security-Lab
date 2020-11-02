@@ -24,5 +24,5 @@ gcc echo_client.c -o client
 
 ## Output
 
-![3 diffrent inputs for the echo server-client](Echo server-client.png)
+![3 diffrent inputs for the echo server-client](https://github.com/Ayushkumar036/Network-Programming-and-Security-Lab/blob/main/Experiment%206-Part%20A/Echo%20server-client.png?raw=true)
 
