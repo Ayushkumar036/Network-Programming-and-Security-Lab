@@ -14,13 +14,13 @@ An iterative server handles both the connection request and the transaction invo
 
 **server side**
 
-gcc echo_server.c -o server
- ./server
+gcc echo_server.c -o server__
+./server
 
 **client side**
 
-gcc echo_client.c -o client
- ./client
+gcc echo_client.c -o client__
+./client
 
 ## Output
 
