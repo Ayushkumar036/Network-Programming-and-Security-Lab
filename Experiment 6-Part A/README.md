@@ -22,7 +22,7 @@ gcc echo_server.c -o server
 gcc echo_client.c -o client
 ./client
 
-##Output
+## Output
 
 ![3 diffrent inputs for the echo server-client](Echo server-client.png)
 
