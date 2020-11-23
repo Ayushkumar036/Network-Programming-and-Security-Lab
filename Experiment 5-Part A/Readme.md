@@ -2,7 +2,7 @@
 
 ## Steps
 
-  #Server
+  **Server**
   
   Include appropriate header files.  
 1.Create a TCP Socket.  
@@ -19,7 +19,7 @@
 
 7.Send the reply of the message madeby the client using send() system call  
 
-  #Client
+  **Client**
   
 1.Create a TCP Socket.  
 
