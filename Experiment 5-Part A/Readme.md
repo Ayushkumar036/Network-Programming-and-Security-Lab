@@ -5,22 +5,22 @@
   #Server
   
   Include appropriate header files.
-1.Create a TCP Socket. 
-2.Fill in the socket address structure (with server information) 
-3.Bind the address and port using bind()system call. 
-4.Server executes listen()system call to indicate its willingness to receive connections. 
-5.Accept  the  next  completed  connection  from  the  client  process  by  using  an accept()system call. 
-6.Receive a message from the Client using recv()system call.  
-7.Send the reply of the message madeby the client using send() system call 
+1.Create a TCP Socket.  
+2.Fill in the socket address structure (with server information)  
+3.Bind the address and port using bind()system call.  
+4.Server executes listen()system call to indicate its willingness to receive connections.  
+5.Accept  the  next  completed  connection  from  the  client  process  by  using  an accept()system call.  
+6.Receive a message from the Client using recv()system call.   
+7.Send the reply of the message madeby the client using send() system call  
 
   #Client
   
-  Create a TCP Socket.
-1.Fill in the socket address structure (with server information) 
-2.Establish connection to the Server using connect()system call. 
-3.Send a chat message to the Server using send()system call. 
-4.Receive the reply message made to the server using recv() system call.  
-5.Write the result thus obtained on the standard output. 
+1.Create a TCP Socket.  
+2.Fill in the socket address structure (with server information)   
+3.Establish connection to the Server using connect()system call.   
+4.Send a chat message to the Server using send()system call.   
+5.Receive the reply message made to the server using recv() system call.    
+6.Write the result thus obtained on the standard output.   
 
 
 ## Commands used for Execution
