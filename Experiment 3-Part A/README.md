@@ -5,14 +5,19 @@
 At sender side,
 
 1.If m bit checksum is used, the data unit to be transmitted is divided into segments of m bits.  
+
 2.All the m bit segments are added.  
+
 3.The result of the sum is then complemented using 1’s complement arithmetic.  
+
 4.The value so obtained is called as checksum.  
 
 5.The data along with the checksum value is transmitted to the receiver.  
 
-6.If m bit checksum is being used, the received data unit is divided into segments of m bits.  
+6.If m bit checksum is being used, the received data unit is divided into segments of m bits. 
+
 7.All the m bit segments are added along with the checksum value.  
+
 8.The value so obtained is complemented and the result is checked.  
 
 
